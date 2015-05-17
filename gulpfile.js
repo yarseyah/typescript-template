@@ -20,7 +20,7 @@ gulp.task('gen-ts-refs', function () {
         starttag: '//{',
         endtag: '//}',
         transform: function (filepath) {
-            return '/// <reference path="../..' + filepath + '" />';
+            return '/// <reference path="..' + filepath + '" />';
         }
     })).pipe(gulp.dest(config.typings));
 });
