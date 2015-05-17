@@ -1,0 +1,1 @@
+This directory is where the compiled typescript files are placed.  Assume anything JS in here will be deleted.
