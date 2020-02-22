@@ -2,6 +2,7 @@
 
 <h2>Overview</h2>
 The template has been set up to include:
+
 * Typescript
 * Typescript-definitions ( *.d.ts )
 * Typescript Linting (tslint)
